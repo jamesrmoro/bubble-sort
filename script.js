@@ -104,7 +104,8 @@ $(document).ready(function(){
                 mover(27);
                 $(".steps .start").css("background-color", "gray");
                 $(".steps .prev").css("background-color", "gray");
-                $(".steps .prev").addClass("not-active");
+                $(".steps .next").removeClass("not-active");
+                $(".steps .next").css("background-color", "");
             break;
             case 2:
                 mensagem(frase.msg2);
@@ -551,7 +552,7 @@ $(document).ready(function(){
                     color(7, cores.orange);
                 break;
                 case 48:
-                    (8, cores.orangeDark);
+                    color(8, cores.orangeDark);
                 break;
                 case 49:
                     color(9, cores.red);
