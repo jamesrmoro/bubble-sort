@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     $("body").on("click", ".open-video", function() {
         var id = $(this).attr("data-modal");
-        $("#"+id).children(".item-modal").find(".wrapper").html("<div class='wrapper'><iframe width='100%' height='100%' src='https://www.youtube.com/embed/iGLq3mMtOik?start=122' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>");
+        $("#"+id).children(".item-modal").find(".wrapper").html("<div class='wrapper'><iframe width='100%' height='100%' src='https://www.youtube.com/embed/CrGlupn_DnQ?start=122' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>");
     });
 
     $("body").on("click", ".close-video", function() {
